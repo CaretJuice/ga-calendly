@@ -1,0 +1,9 @@
+<script>
+    (function() {
+      var el = document.getElementById("calendar");
+      var url = "https://calendly.com/my-company/15min?text_color=727272&primary_color=ff7321&utm_term=" + "{{GA - ClientID}}"
+      if (el) {
+        el.setAttribute("data-url", url);
+      }
+    })();
+  </script>
